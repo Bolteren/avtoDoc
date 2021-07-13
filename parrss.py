@@ -1,11 +1,6 @@
 import copy
-
-import requests
-from bs4 import BeautifulSoup
 import codecs
 import re
-import pandas as pd
-
 
 def clear_file(name):
     input_file = codecs.open(name, 'r')
